@@ -1,0 +1,11 @@
+﻿.navbar-image
+{
+    height: 80px;
+    border: none;
+}
+.navbar
+{
+    border: none; 
+    padding: 0;  
+    margin: 0;
+}

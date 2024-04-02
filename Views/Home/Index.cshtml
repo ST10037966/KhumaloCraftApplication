@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<div class="jumbotron text-center" style="background-image: url(/wwwroot/Images/Giraffe3.jpg); background-size: cover; background-position: center; ">
+    <h1>Welcome to KhumaloCraft</h1>
+    <p class="lead" style="color: white;">Discover the beauty of handcrafted products from local artisans, and artisans around the world.</p>
+    <a class="btn btn-primary btn-lg" style="background-color: #F4A460; border-color: #F4A460" href="@Url.Action("Index", "MyWork")" role="button">Explore Our Work</a>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <h2>About Us</h2>
+            <p>Learn more about KhumaloCraft and our mission to connect artisans with a global audience.</p>
+            <a class="btn btn-secondary" style="background-color: #F4A460; border-color: #F4A460" href="@Url.Action("Index", "About")" role="button">Learn more &raquo;</a>
+        </div>
+        <div class="col-md-4">
+            <h2>Contact Us</h2>
+            <p>Have questions or feedback? Contact us directly through our contact form.</p>
+            <a class="btn btn-secondary" style="background-color: #F4A460; border-color: #F4A460" href="@Url.Action("Index", "Contact")" role="button">Contact us &raquo;</a>
+        </div>
+        <div class="col-md-4">
+            <h2>Our Work</h2>
+            <p>Explore our collection of handcrafted products from talented artisans worldwide.</p>
+            <a class="btn btn-secondary" style="background-color: #F4A460; border-color: #F4A460" href="@Url.Action("Index", "MyWork")" role="button">Explore &raquo;</a>
+        </div>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2024 KhumaloCraft</p>
+    </footer>
+</div>

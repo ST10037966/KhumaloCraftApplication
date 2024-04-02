@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KhumaloCraftApplication", "KhumaloCraftApplication.csproj", "{6C539225-23D2-429E-A0A7-06D890953837}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C539225-23D2-429E-A0A7-06D890953837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C539225-23D2-429E-A0A7-06D890953837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C539225-23D2-429E-A0A7-06D890953837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C539225-23D2-429E-A0A7-06D890953837}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F991873A-8202-436E-965C-424D1F70237C}
+	EndGlobalSection
+EndGlobal
